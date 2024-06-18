@@ -1,0 +1,40 @@
+.container{
+  position: relative;
+  width: 40vw;
+  height: 90vw;
+  margin: 10px auto;
+  background-image: url("images/analogclock-removebg-preview.png");
+  background-size: 100%;  
+  background-repeat: no-repeat;
+}
+h1{
+  text-align: center;
+  text-transform: capitalize;
+}
+.hour, .minute, .second{
+  position: absolute;
+  background-color: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+.hour{
+  width: 3%;
+  height: 14%;
+  top: 8.3%;
+  left: 49%;
+  opacity: 0.8;  
+}
+.minute{
+  width: 2%;
+  height: 14%;
+  top: 8.3%;
+  left: 49%;
+  opacity: 0.8;
+}
+.second{
+  width: 1.5%;
+  height: 16%;
+  top: 6.3%;
+  left: 49.20%;
+  opacity: 0.8;    
+}
